@@ -54,30 +54,7 @@ int main(){
 
     super_poder1 = pop1 + area1 + pib1 + pt1 + ppc1 + (1 / densidade1);
 
-    // Imprimindo as info. da carta 1
-
-    printf("Carta 1 \n");
-
-    printf("Estado: %s\n", estado1);
-
-    printf("Código da carta: %s\n", cdc1);
-
-    printf("Nome da Cidade: %s\n", cidade1);
-
-    printf("População: %lu\n", pop1);
     
-    printf("Área: %.2f\n", area1);
-
-    printf("PIB: %.2f\n", pib1);
-
-    printf("Pontos Turisticos: %d\n", pt1);
-
-    printf("Densidade Populacional: %.2f\n", densidade1);
-
-    printf("PIB per Capita: %.2f\n", ppc1);
-
-    printf("Super Poder: %.2f\n", super_poder1);
-
     // Entrada de Dados para a segunda carta
 
     printf("Digite as informações da Segunda Carta\n");
@@ -113,7 +90,29 @@ int main(){
 
     super_poder2 = pop2 + area2 + pib2 + pt2 + ppc2 + (1 / densidade2);
 
-    // Imprimindo as info. da carta 2
+    // Imprimindo as info. da carta 1 e 2
+
+    printf("Carta 1 \n");
+
+    printf("Estado: %s\n", estado1);
+
+    printf("Código da carta: %s\n", cdc1);
+
+    printf("Nome da Cidade: %s\n", cidade1);
+
+    printf("População: %lu\n", pop1);
+    
+    printf("Área: %.2f\n", area1);
+
+    printf("PIB: %.2f\n", pib1);
+
+    printf("Pontos Turisticos: %d\n", pt1);
+
+    printf("Densidade Populacional: %.2f\n", densidade1);
+
+    printf("PIB per Capita: %.2f\n", ppc1);
+
+    printf("Super Poder: %.2f\n", super_poder1);
 
     printf("Carta 2 \n");
 
